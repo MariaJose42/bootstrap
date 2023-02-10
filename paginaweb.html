@@ -16,10 +16,10 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Autor</a>
+                <a class="nav-link active" aria-current="page" href="#Autor">Autor</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Libros</a>
+                <a class="nav-link" href="#Libros">Libros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Personajes">Personajes</a>
@@ -38,6 +38,68 @@
           </div>
         </div>
       </nav>
+
+      <div id="Autor" class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Rick Riordan</h2>
+            <img src="imagenes/rickRiordan.jpeg" alt="Rick Riordan">
+          </div>
+
+          <div class="col">
+            <p> Rick Riordan es un escritor americano autor de fantasía, misterio y literatura juvenil, conocido 
+            principalmente por su serie de libros Percy Jackson y los dioses del Olimpo. </p>
+
+            <p> Estudió en la Universidad de Texas y pasó varios años trabajando como profesor de Inglés y Estudios Sociales en San Francisco, donde comenzó a desarrollar las historias de su personaje más emblemático, Percy Jackson. </p>
+          </div>
+
+          <div class="col">
+            <p> En 2006 publicó la primera entrega de la serie de Percy Jackson, Percy Jackson y el ladrón del rayo.  Con ella dio comienzo a un mundo nuevo, peligroso y emocionante a partes iguales. </p>
+            <p> Además, también exploró en distintas tradiciones: griega, romana, egipcia y nórdica. </p>
+            <p> <button type="button" class="btn btn-dark">
+            <a href="https://es.wikipedia.org/wiki/Rick_Riordan">Info</a></button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="Libros">
+        <h1>Libros</h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                El ladrón del rayo
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">...</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                El mar de los monstrous
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                La maldición del Titán
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div class="container" id="Personajes">
         <div class="row">
